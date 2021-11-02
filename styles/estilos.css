@@ -10,7 +10,60 @@ ul {
 }
 
 .navbar {
+    background-color: darkgray;
     display: flex;
     justify-content: space-between;
     padding: 10px;
+}
+
+.logo {
+    height: 60px;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: bolder;
+    box-shadow: 2px 2px rgb(150, 150, 150);
+}
+
+/* Cuando el mouse pase por el boton que haga lo siguiente*/
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainButton {
+    background-color: black;
+    color: #fff;
+}
+
+.mainButton:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.sessionButton {
+    background-color: rgb(189, 92, 36);
+}
+
+.sessionButton:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.buscar {
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.buscar > input {
+    outline: none;
+    border: 0px;
+}
+
+.buscar:focus-within {
+    border: 1px solid rgb(0, 76, 240);
 }
