@@ -14,6 +14,13 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 1px gray;
+}
+
+.navbar > li {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -35,7 +42,7 @@ ul {
 /* Cuando el mouse pase por el boton que haga lo siguiente*/
 .button:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.12);
 }
 
 .mainButton {
@@ -61,6 +68,9 @@ ul {
     border: 1px solid gray;
     border-radius: 10px;
     padding: 4px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .buscar > input {
@@ -70,4 +80,9 @@ ul {
 
 .buscar:focus-within {
     border: 1px solid rgb(0, 76, 240);
+}
+
+.butonBuscar:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
