@@ -86,3 +86,29 @@ ul {
     cursor: pointer;
     transform: scale(1.1);
 }
+
+.contenedorImagen {
+    width: 350px;
+    height: 320px;
+    display: flex;
+}
+
+.contenedorImagen > img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.contenedorImagen:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.cardContainer {
+    display: -webkit-flex;
+    margin: 50px;
+}
+
+.breedCard {
+    margin: 10px;
+    background-color: darkgray;
+}
